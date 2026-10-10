@@ -13,8 +13,9 @@ dependencies = [
 ]
 
 [project.scripts]
-pages-make  = "pages.scripts.make:main"
+pages-desc  = "pages.scripts.desc:main"
 pages-index = "pages.scripts.index:main"
+pages-make  = "pages.scripts.make:main"
 
 [project.entry-points."mkdocs.themes"]
 zentheme = "pages.theme"
