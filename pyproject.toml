@@ -12,14 +12,9 @@ dependencies = [
     "zensical",
 ]
 
-[dependency-groups]
-dev = [
-    "playwright==1.60.0",
-    "typst",
-]
-
 [project.scripts]
-pages-make = "pages.__main__:main"
+pages-make  = "pages.scripts.make:main"
+pages-index = "pages.scripts.index:main"
 
 [project.entry-points."mkdocs.themes"]
 zentheme = "pages.theme"

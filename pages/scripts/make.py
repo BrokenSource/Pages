@@ -42,3 +42,6 @@ def main():
     # Move to expected actions/upload-pages-artifact
     if ("GITHUB_ACTIONS" in os.environ):
         site.rename(site.parent.joinpath("_site"))
+
+if __name__ == "__main__":
+    main()
