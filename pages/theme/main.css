@@ -1,7 +1,12 @@
+@import url("css/catppuccin.css");
 
 /* Lighter headings for differentiation */
-h2 {color: color-mix(in srgb, var(--md-typeset-color) 80%, white) !important}
-h3 {color: color-mix(in srgb, var(--md-typeset-color) 65%, white) !important}
+h2 {
+    color: color-mix(in srgb, var(--md-typeset-color) 80%, white) !important;
+}
+h3 {
+    color: color-mix(in srgb, var(--md-typeset-color) 65%, white) !important;
+}
 
 /* Spread content tabs to full width */
 .tabbed-labels--linked label {
