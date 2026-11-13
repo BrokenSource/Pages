@@ -8,7 +8,7 @@ from inspect import cleandoc
 from pathlib import Path
 
 import frontmatter
-from delusion.chat.option.ollamax import Ollama
+from delusion.chat.option.ollama import Ollama
 from pydantic import BaseModel, Field
 
 

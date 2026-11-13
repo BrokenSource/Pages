@@ -8,7 +8,7 @@ readme       = "readme.md"
 license      = "MIT"
 dependencies = [
     "python-frontmatter==1.3.0",
-    "tdewolff-minify==2.24.12",
+    "tdewolff-minify",
     "zensical",
 ]
 
